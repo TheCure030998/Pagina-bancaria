@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos a la Banca en Línea | BBVA México</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon-48x48.avif">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header__section">
+        <div class="header__section__container">
+            <nav class="navbar__segment">
+                <ul class="nav__list">
+                    <li class="access__item">
+                        <label for="access__button" role="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" height="24px" width="24px">
+                                <defs><style>.bbvaicn{fill:#fff}</style></defs>
+                                <path class="bbvaicn" d="M161.38 132.34a70 70 0 0 1-62.76 0A90 90 0 0 0 30 219.77v20h200v-20a90 90 0 0 0-68.62-87.43zM160 209.77h-30v-20h50zm-30-90a50 50 0 1 0-50-50 50 50 0 0 0 50 50z"></path>
+                            </svg>
+                            <span>Acceso</span>
+                        </label>
+                        <input id="access__button" type="checkbox">
+                    </li>
+                    <li class="logo__item">
+                        <a href="index.html">
+                            <img src="img/logo_bbva_blanco.svg" alt="Logo BBVA">
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <label for="menu__button" role="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" height="24px" width="24px">
+                                <defs><style>.bbvaicn{fill:#fff}</style></defs>
+                                <g>
+                                    <polygon class="bbvaicn" points="210.37 80.12 20.37 80.12 20.37 50.12 240.37 50.12 210.37 80.12"></polygon>
+                                    <polygon class="bbvaicn" points="180.37 145.12 20.37 145.12 20.37 115.12 210.37 115.12 180.37 145.12"></polygon>
+                                    <polygon class="bbvaicn" points="150.37 210.12 20.37 210.12 20.37 180.12 180.37 180.12 150.37 210.12"></polygon>
+                                </g>
+                            </svg>
+                            <span>Menú</span>
+                        </label>
+                        <input id="menu__button" type="checkbox">
+                    </li>
+                    <li class="searchbox__item">
+                        <label for="searchbox__button" role="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                            </svg>
+                        </label>
+                        <input id="searchbox__button" type="checkbox">
+                    </li>
+                </ul>
+            </nav>
+            <div class="access__segment">
+                <div class="access__segment__container">
+                    <div class="access__close">
+                        <label for="access__button" role="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="#043263" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                            </svg>
+                        </label>
+                    </div>
+                    <div class="access__content">
+                        <h1>¡Bienvenido!</h1>
+                        <form action="#">
+                            <input id="cardNumber" type="password" name="cardNumber" maxlength="16" placeholder="Número de Tarjeta" required>
+                            <div class="access__content__inputs">
+                                <input type="submit" name="loginButton" value="Continuar">
+                                <a href="#">
+                                    ¡Regístrate!
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="access__message">
+                        <p class="cuida__datos">Cuida tus datos y la seguridad de tu equipo</p><br>
+                        <p class="cuida__datos__message">Algunas extensiones de los navegadores pueden poner en riesgo la seguridad de tus datos. Evita instalarlas en el navegador que ocupas para entrar a bbva.mx</p>
+                        <a href="#">Saber más</a>
+                    </div>
+                    <div class="new__customer">
+                        <div class="new__customer__section">
+                            <a href="#" role="button">
+                                <img src="img/new__customer__section/3_048_oneclick.svg" alt="nuevo cliente">
+                                <span>Hazte cliente</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="header__menu__nav">
+                <ul class="header__list">
+                    <li>
+                        <a href="#">Personas</a>
+                    </li>
+                    <li>
+                        <a href="#">Empresas y Gobierno</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu__segment">
+                <div class="menu__segment__container">
+                    <nav class="menu__nav">
+                        <ul class="main__nav">
+                            <li>
+                                <a class="inicio__item" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#1973b8" class="bi bi-house-fill" viewBox="0 0 16 16">
+                                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                                        <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                                    </svg>
+                                    <span>Inicio</span>
+                                </a>
+                            </li>
+                            <li>
+                                <details name="details">
+                                    <summary class="summary">Tarjetas de crédito</summary>
+                                    <a class="summary__item" href="#">Todas las tarjetas de crédito</a>
+                                    <a class="summary__item" href="#">Tarjeta de crédito Congelada BBVA</a>
+                                    <a class="summary__item" href="#">Mi primera Tarjeta de Crédito</a>
+                                    <a class="summary__item" href="#">Tarjeta Crea BBVA</a>
+                                    <a class="summary__item" href="#">Tarjeta Azul BBVA</a>
+                                    <a class="summary__item" href="#">Tarjeta Vive BBVA</a>
+                                    <a class="summary__item" href="#">Tarjeta Educación</a>
+                                    <a class="summary__item" href="#">Tarjeta de crédito IPN</a>
+                                    <a class="summary__item" href="#">Tarjeta de crédito Rayados BBVA</a>
+                                    <a class="summary__item" href="#">Tarjeta de crédito Oro</a>
+                                    <a class="summary__item" href="#">Tarjeta Afinidad UNAM BBVA</a>
+                                    <a class="summary__item" href="#">Tarjeta Platinum BBVA</a>
+                                    <a class="summary__item" href="#">Caracterísiticas y beneficios tarjeta de crédito</a>
+                                    <a class="summary__item" href="#">Solicitar una tarjeta de crédito</a>
+                                    <a class="summary__item" href="#">Puntos y promociones BBVA</a>
+                                    <a class="summary__item" href="#">Incremento de línea de crédito</a>
+                                    <a class="summary__item" href="#">Efectivo inmediato</a>
+                                    <a class="summary__item" href="#">Difiere tus compras</a>
+                                </details>
+                            </li>
+                            <li>
+                                <details name="details">
+                                    <summary class="summary">Créditos y préstamos</summary>
+                                    <a class="summary__item" href="#">Créditos y préstamos</a>
+                                    <a class="summary__item" href="#">Créditos hipotecarios</a>
+                                    <a class="summary__item" href="#">Créditos automotriz</a>
+                                    <a class="summary__item" href="#">Créditos Moto</a>
+                                    <a class="summary__item" href="#">Préstamos personales</a>
+                                    <a class="summary__item" href="#">Préstamos de nómina</a>
+                                    <a class="summary__item" href="#">Préstamos Personal Inmediato</a>
+                                </details>
+                            </li>
+                            <li>
+                                <details name="details">
+                                    <summary class="summary">Cuentas de débito</summary>
+                                    <a class="summary__item" href="#">Cuentas de débito</a>
+                                    <a class="summary__item" href="#">Abre una cuenta desde tu celular</a>
+                                    <a class="summary__item" href="#">Link Card</a>
+                                    <a class="summary__item" href="#">Libretón Básico</a>
+                                    <a class="summary__item" href="#">Libretón Prémium</a>
+                                    <a class="summary__item" href="#">Libretón Dólares</a>
+                                    <a class="summary__item" href="#">Tarjeta de Viajes</a>
+                                    <a class="summary__item" href="#">Winner Card</a>
+                                    <a class="summary__item" href="#">Tarjeta Básica</a>
+                                    <a class="summary__item" href="#">Tarjeta Nómina Básica</a>
+                                    <a class="summary__item" href="#">Cuenta Express</a>
+                                    <a class="summary__item" href="#">Envíos de dinero</a>
+                                    <a class="summary__item" href="#">Programas de apoyo social</a>
+                                    <a class="summary__item" href="#">Libretón 2.0</a>
+                                    <a class="summary__item" href="#">Libretón BBVA</a>
+                                    <a class="summary__item" href="#">Libretón Dólares Frontera</a>
+                                    <a class="summary__item" href="#">Maestra Particulares</a>
+                                    <a class="summary__item" href="#">Solución personal</a>
+                                    <a class="summary__item" href="#">Protección de cheques</a>
+                                    <a class="summary__item" href="#">Débito Socio Conductor</a>
+                                    <a class="summary__item" href="#">Plan</a>
+                                    <a class="summary__item" href="#">Apartados</a>
+                                </details>
+                            </li>
+                            <li>
+                                <details name="details">
+                                    <summary class="summary">Ahorro</summary>
+                                        <a class="summary__item" href="#">Ahorro</a>
+                                        <a class="summary__item" href="#">Meta Ahorro</a>
+                                        <a class="summary__item" href="#">BBVA Plan</a>
+                                </details>
+                            </li>
+                            <li>
+                                <details name="details">
+                                    <summary class="summary">Inversiones</summary>
+                                        <a class="summary__item" href="#">Toda la oferta de inversiones</a>
+                                        <a class="summary__item" href="#">Inversiones a plazo</a>
+                                        <a class="summary__item" href="#">BBVA INVEST</a>
+                                        <a class="summary__item" href="#">Fondos de inversión</a>
+                                        <a class="summary__item" href="#">Fondos de inversión de deuda</a>
+                                        <a class="summary__item" href="#">Renta variable</a>
+                                        <a class="summary__item" href="#">Multiestrategia</a>
+                                        <a class="summary__item" href="#">MultiActivos</a>
+                                        <a class="summary__item" href="#">BBVA Asset Management</a>
+                                        <a class="summary__item" href="#">Normativa de fondos de inversión</a>
+                                </details>
+                            </li>
+                            <li>
+                                <details name="details">
+                                    <summary class="summary">Nómina</summary>
+                                        <a class="summary__item" href="#">Nómina</a>
+                                        <a class="summary__item" href="#">Nómina BBVA</a>
+                                        <a class="summary__item" href="#">Cambia tu nómina a BBVA</a>
+                                </details>
+                            </li>
+                            <li>
+                                <details name="details">
+                                    <summary class="summary">Pensiones</summary>
+                                    <a class="summary__item" href="#">Pensiones</a>
+                                    <a class="summary__item" href="#">Préstamos</a>
+                                    <a class="summary__item" ="#">Invalidez y Vida ISSSTE</a>
+                                    <a class="summary__item" href="#">Riesgo de Trabajo ISSSTE</a>
+                                    <a class="summary__item" href="#">Retiro, Cesantía y Vejez ISSSTE</a>
+                                    <a class="summary__item" href="#">Riesgo de trabajo IMSS</a>
+                                    <a class="summary__item" href="#">Invalidez y Vida IMSS</a>
+                                    <a class="summary__item" href="#">Retiro, Cesantía en Edad Avanzada y Vejez IMSS</a>
+                                </details>
+                            </li>
+                            <li>
+                                <a class="inmuebles__item" href="#">
+                                    Inmuebles
+                                </a>
+                            </li>
+                            <li>
+                                <details name="details">
+                                    <summary class="summary">Seguros</summary>
+                                    <a class="summary__item" href="#">Seguros</a>
+                                    <a class="summary__item" href="#">Seguros de Auto y Moto</a>
+                                    <a class="summary__item" href="#">Cotizar un Seguro de Auto</a>
+                                    <a class="summary__item" href="#">Cotizar un Seguro de Moto</a>
+                                    <a class="summary__item" href="#">Seguros de Hogar</a>
+                                    <a class="summary__item" href="#">Seguros de Objetos Personales</a>
+                                    <a class="summary__item" href="#">Seguros de Retiro en Efectivo</a>
+                                    <a class="summary__item" href="#">Seguros de Vida</a>
+                                    <a class="summary__item" href="#">Seguros de Ahorro</a>
+                                    <a class="summary__item" href="#">Seguros de Accidentes y Enfermedades</a>
+                                    <a class="summary__item" href="#">Seguros Salúd</a>
+                                    <a class="summary__item" href="#">Seguro de Salúd Tu Médico Particular</a>
+                                    <a class="summary__item" href="#">Seguro para Mascotas</a>
+                                </details>
+                            </li>
+                            <li>
+                                <details name="details">
+                                    <summary class="summary">Banca Patrimonial y Privada</summary>
+                                    <a class="summary__item" href="#">Banca Patrimonial y Privada</a>
+                                    <a class="summary__item" href="#">Inversiones</a>
+                                    <a class="summary__item" href="#">Cuentas y tarjetas de crédito</a>
+                                    <a class="summary__item" href="#">Seguros</a>
+                                    <a class="summary__item" href="#">Financiamento especializado</a>
+                                    <a class="summary__item" href="#">Fideicomiso</a>
+                                    <a class="summary__item" href="#">Soluciones no financieras</a>
+                                </details>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="menu__searchbox">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                        <input type="text" id="searchbox__input" placeholder="Buscar aquí">
+                    </div>
+                    <div class="menu__slider">
+                        <div class="slider__head">
+                            <p>Oportunidades</p>
+                        </div>
+                        <div class="slider__controls">
+                            <input type="radio" name="slider" id="slide1" checked>
+                            <label class="slide1" for="slide1"></label>
+                            <input type="radio" name="slider" id="slide2">
+                            <label class="slide2" for="slide2"></label>
+                            <input type="radio" name="slider" id="slide3">
+                            <label class="slide3" for="slide3"></label>
+                            <input type="radio" name="slider" id="slide4">
+                            <label class="slide4" for="slide4"></label>
+                            <input type="radio" name="slider" id="slide5">
+                            <label class="slide5" for="slide5"></label>
+                            <input type="radio" name="slider" id="slide6">
+                            <label class="slide6" for="slide6"></label>
+                        </div>
+                        <nav class="slider__list__container">
+                            <ul class="slider__list">
+                                <li>
+                                    <a href="#">
+                                        <img src="img/slider/products_bancomer_opportunity_menu.im1705587126607im.avif" alt="Oportunidades con bancomer">
+                                        <h2>COMIENZA CON BBVA</h2>
+                                        <p>Disfruta los beneficios que tenemos para ti</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/slider/home_loan_opportunity_menu.im1705587287474im.avif" alt="Oportunidad de hipoteca">
+                                        <h2>VIVE TRANQUILO EN TU HOGAR</h2>
+                                        <p>Elige tu casa y protégela</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/slider/car_opportunity_menu.im1705587162890im.avif" alt="Oportunidad de automóvil">
+                                        <h2>UN VEHÍCULO PARA TU ESTILO DE VIDA</h2>
+                                        <p>Tu auto o moto siempre seguros</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/slider/money_loan_fast_opportunity_menu.im1712051300029im.avif" alt="Oportunidad de préstamo">
+                                        <h2>DINERO PARA CUALQUIER IMPREVISTO</h2>
+                                        <p>Apoyo inmediato en el momento indicado</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/slider/future_investment_opportunity_menu.im1712051365445im.avif" alt="Oportunidad de inversión">
+                                        <h2>INVIERTE Y PLANIFICA TU FUTURO</h2>
+                                        <p>Conoce cómo ahorrar o invertir tu dinero</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/slider/bussiness_opportunity_menu.im1705587164025im.avif" alt="Oportunidad para tu  negocio">
+                                        <h2>DESARROLLA TU NEGOCIO</h2>
+                                        <p>Comienza o impulsa tu empresa</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="menu__aside">
+                        <div class="aside__img__container">
+                            <img src="img/ambas_cards_pedestal_05.im1659712565077im.avif" alt="Ambas tarjetas en pedestal">
+                        </div>
+                        <div class="aside__info__container">
+                            <h2>¡Contrata en 5 min tu tarjeta de crédito!</h2>
+                            <ul>
+                                <li>
+                                    Disfruta 3 meses sin intereses* por 30 días.
+                                </li>
+                                <li>
+                                    Cuenta digital Libretón Básico sin costo.
+                                </li>
+                                <li>
+                                    App BBVA para manejar tu dinero 24/7.
+                                </li>
+                            </ul>
+                            <p>*Excepto tarjeta Crea</p>
+                        </div>
+                        <div class="aside__button">
+                            <a role="button" href="#">Me interesa</a>
+                        </div>
+                    </div>
+                    <div class="menu__footer">
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#">
+                                    <img src="img/menu__footer__links/leaf.webp" alt="Sostenibilidad">
+                                    <span>Sostenibilidad</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/menu__footer__links/5_006_wellness.svg" alt="Salud Financiera">
+                                    <span>Salud Financiera</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/menu__footer__links/2_042_nearme.svg" alt="Servicios digitales">
+                                    <span>Servicios digitales</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/menu__footer__links/3_026_mobile.svg" alt="Aplicaciones móviles">
+                                    <span>Aplicaciones móviles</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/menu__footer__links/2_027_place.svg" alt="Sucursales y cajeros">
+                                    <span>Sucursales y cajeros</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/menu__footer__links/4_003_help.svg" alt="Ayuda urgente">
+                                    <span>Ayuda urgente</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/menu__footer__links/1_028_international.svg" alt="Noticias">
+                                    <span>Noticias de bbva.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/menu__footer__links/5_007_education.svg" alt="Educación financiera">
+                                    <span>Educación financiera</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu__access__container">
+                        <label for="access__button" role="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" height="24px" width="24px">
+                                <defs><style>.bbvaicn{fill:#fff}</style></defs>
+                                <path class="bbvaicn" d="M161.38 132.34a70 70 0 0 1-62.76 0A90 90 0 0 0 30 219.77v20h200v-20a90 90 0 0 0-68.62-87.43zM160 209.77h-30v-20h50zm-30-90a50 50 0 1 0-50-50 50 50 0 0 0 50 50z"></path>
+                            </svg>
+                            <span>Acceso</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="newCustomer__segment">
+                <a href="#" role="button">
+                    <img src="img/3_051_newclient.png" alt="nuevo cliente">
+                    <span>Hazte cliente</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="main__section">
+        <section class="informative__slider">
+            <div class="informative__slider__controls">
+                <input type="radio" id="informative__slide1" name="informative__slider" checked>
+                <label class="informative__slider__label1" for="informative__slide1" role="button"></label>
+                <input type="radio" id="informative__slide2" name="informative__slider">
+                <label class="informative__slider__label2" for="informative__slide2" role="button"></label>
+                <input type="radio" id="informative__slide3" name="informative__slider">
+                <label class="informative__slider__label3" for="informative__slide3" role="button"></label>
+            </div>
+            <ul class="informative__slider__container">
+                <li>
+                    <img src="img/main__informative__section/ef-multiproposito_portabilidad-medio-02.im1712256487116im.avif" alt="Tu nomina con nosotros">
+                    <div class="informative__slider__info">
+                        <h2><strong>¿Tu nómina está donde te conviene? Mejor tráela a BBVA</strong></h2>
+                        <p>Podrías tener un crédito de nómina con tasa de interés desde <strong>12%</strong></p>
+                        <p>Términos y condiciones en bbva.mx/tunomina</p>
+                        <div class="informative__slider__button">
+                            <a href="#" role="button">Quiero cambiarme</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/main__informative__section/portabilidad-home-personas-campana.im1712954499493im.avif" alt="Tu nomina con nosotros">
+                    <div class="informative__slider__info">
+                        <h2><strong><span>Tu nómina</span> es la puerta a ese viaje que siempre soñaste</strong></h2>
+                        <p><strong>Cambia tu nómina BBVA,</strong> podrás obtener un Crédito Nómina</p>
+                        <div class="informative__slider__button">
+                            <a href="#" role="button">Conoce más</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="cuida__tuyos">
+                    <img src="img/main__informative__section/seguro-vida-home-semi-desk.im1713975064851im.avif" alt="Tu nomina con nosotros">
+                    <div class="informative__slider__info">
+                        <h2><strong>Cuida a los tuyos cuidándote</strong> con nuestro Seguro de Vida</h2>
+                        <p>Disfruta de recompensas diarias mientras cuidas a los que amas</p>
+                        <div class="informative__slider__button">
+                            <a href="#" role="button">Conoce más</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="prioridad__apoyo">
+            <div class="prioridad__apoyo__container">
+                <div class="prioridad__apoyo__img">
+                    <img src="img/main__prioridadapoyo__section/donation.im1712051299836im.avif" alt="Eres nuestra prioridad">
+                </div>
+                <div class="prioridad__apoyo__info">
+                    <h2>Nuestra prioridad es apoyarnos en esta emergencia</h2>
+                    <p>Si eres uno de nuestros clientes en el estado de Guerrero y te viste afectado por el huracán Otis tenemos un plan de apoyo para ti</p>
+                </div>
+                <div class="prioridad__apoyo__button">
+                    <a href="#" role="button">Conoce más</a>
+                </div>
+            </div>
+        </section>
+        <section class="extras__slider">
+            <div class="extras__slider__controls">
+                <input type="radio" id="extras__slide1" name="extras__slider" checked>
+                <label class="extras__slider__label1" for="extras__slide1" role="button"></label>
+                <input type="radio" id="extras__slide2" name="extras__slider">
+                <label class="extras__slider__label2" for="extras__slide2" role="button"></label>
+                <input type="radio" id="extras__slide3" name="extras__slider">
+                <label class="extras__slider__label3" for="extras__slide3" role="button"></label>
+                <input type="radio" id="extras__slide4" name="extras__slider">
+                <label class="extras__slider__label4" for="extras__slide4" role="button"></label>
+                <input type="radio" id="extras__slide5" name="extras__slider">
+                <label class="extras__slider__label5" for="extras__slide5" role="button"></label>
+                <input type="radio" id="extras__slide6" name="extras__slider">
+                <label class="extras__slider__label6" for="extras__slide6" role="button"></label>
+                <input type="radio" id="extras__slide7" name="extras__slider">
+                <label class="extras__slider__label7" for="extras__slide7" role="button"></label>
+                <input type="radio" id="extras__slide8" name="extras__slider">
+                <label class="extras__slider__label8" for="extras__slide8" role="button"></label>
+                <input type="radio" id="extras__slide9" name="extras__slider">
+                <label class="extras__slider__label9" for="extras__slide9" role="button"></label>
+            </div>
+            <ul class="extras__slider__container">
+                    <li class="extras__slider__item">
+                        <a class="extras__slider__link" href="#" role="button">
+                            <img src="img/main__extras__slider/1_007_creditcard.svg" alt="Tarjeta">
+                            <h3><strong>Busco una tarjeta</strong></h3>
+                        </a>
+                    </li>
+                    <li class="extras__slider__item">
+                        <a class="extras__slider__link" href="#" role="button">
+                            <img src="img/main__extras__slider/1_023_loan.svg" alt="Préstamo">
+                            <h3><strong>Necesito un crédito</strong></h3>
+                        </a>
+                    </li>
+                    <li class="extras__slider__item">
+                        <a class="extras__slider__link" href="#" role="button">
+                            <img src="img/main__extras__slider/1_002_dollar.svg" alt="Cuenta">
+                            <h3><strong>Quiero una cuenta</strong></h3>
+                        </a>
+                    </li>
+                    <li class="extras__slider__item">
+                        <a class="extras__slider__link" href="#" role="button">
+                            <img src="img/main__extras__slider/1_024_insurance.svg" alt="Seguro">
+                            <h3><strong>Seguros</strong></h3>
+                        </a>
+                    </li>
+                    <li class="extras__slider__item">
+                        <a class="extras__slider__link" href="#" role="button">
+                            <img src="img/main__extras__slider/5_079_taxes.svg" alt="Impuestos">
+                            <h3><strong>Pago de impuestos</strong></h3>
+                        </a>
+                    </li>
+                    <li class="extras__slider__item">
+                        <a class="extras__slider__link" href="#" role="button">
+                            <img src="img/main__extras__slider/1_001_euro.svg" alt="Cambio">
+                            <h3><strong>Tipo de cambio</strong></h3>
+                        </a>
+                    </li>
+                    <li class="extras__slider__item">
+                        <a class="extras__slider__link" href="#" role="button">
+                            <img src="img/main__extras__slider/5_014_savings.svg" alt="Ahorro">
+                            <h3><strong>Mi plan es ahorrar</strong></h3>
+                        </a>
+                    </li>
+                    <li class="extras__slider__item">
+                        <a class="extras__slider__link" href="#" role="button">
+                            <img src="img/main__extras__slider/1_026_investment.svg" alt="Inversión">
+                            <h3><strong>Quiero invertir</strong></h3>
+                        </a>
+                    </li>
+                    <li class="extras__slider__item">
+                        <a class="extras__slider__link" href="#" role="button">
+                            <img src="img/main__extras__slider/1_043_bonusaccount.svg" alt="Banca">
+                            <h3><strong>Banca Patrimonial y Privada</strong></h3>
+                        </a>
+                    </li>
+                    <li class="extras__slider__item">
+                        <a class="extras__slider__link" href="#" role="button">
+                            <img src="img/main__extras__slider/5_070_sun.svg" alt="Pension">
+                            <h3><strong>Pensiones</strong></h3>
+                        </a>
+                    </li>
+                    <li class="extras__slider__item">
+                        <a class="extras__slider__link" href="#" role="button">
+                            <img src="img/main__extras__slider/5_002_build.svg" alt="Inmueble">
+                            <h3><strong>Busco un inmueble</strong></h3>
+                        </a>
+                    </li>
+            </ul>
+        </section>
+        <section class="datos__fiscales">
+            <div class="datos__fiscales__flex">
+                <div class="datos__fiscales__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#004481" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+                    </svg>
+                </div>
+                <div class="datos__fiscales__info__container">
+                    <div class="datos__fiscales__info">
+                        <h3><strong>¿Ya nos compartiste tus datos fiscales actualizados?</strong></h3>
+                        <p>Mantener tu información actualizada nos permite emitir tus comprobantes CFDI con validez fiscal, lo que significa que tus facturas electrónicas seguirán siendo deducibles de impuestos</p>
+                    </div>
+                    <div class="datos__fiscales__link">
+                        <a href="#" role="button">
+                            <img src="img/datos__fiscales__section/link.webp" alt="icono link">
+                            <span>Conoce cómo hacerlo</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="productos__slider">
+            <div class="productos__slider__controls">
+                <input type="radio" name="productos__slider" id="productos__slider1" checked>
+                <label class="productos__slider__label1" for="productos__slider1" role="button"></label>
+                <input type="radio" name="productos__slider" id="productos__slider2">
+                <label class="productos__slider__label2" for="productos__slider2" role="button"></label>
+                <input type="radio" name="productos__slider" id="productos__slider3">
+                <label class="productos__slider__label3" for="productos__slider3" role="button"></label>
+                <input type="radio" name="productos__slider" id="productos__slider4">
+                <label class="productos__slider__label4" for="productos__slider4" role="button"></label>
+            </div>
+            <ul class="productos__slider__container">
+                <li class="productos__slider__item">
+                    <a class="productos__slider__img1" href="#" role="button">
+                        <img src="img/main__productos_slider_section/security_warning_dark.svg" alt="Protección">
+                    </a>
+                    <a class="productos__slider__info" href="#" role="button">
+                        <h3><strong>Que no te engañen los sitios falsos</strong></h3>
+                        <p>Una de las tácticas más usadas por los ciberdelincuentes para engañarte y cometer fraude es crear sitios web falsos.</p>
+                        <p>¡No te confíes y protégete de ellos!</p>
+                    </a>
+                    <div class="productos__slider__button">
+                        <a href="#" role="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1464a5" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                            </svg>
+                            <span>Conoce más</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="productos__slider__item">
+                    <a class="productos__slider__img" href="#" role="button">
+                        <img src="img/main__productos_slider_section/card-viaje-punto-mayo-2024.im1714403816563im.avif" alt="Puntos">
+                    </a>
+                    <a class="productos__slider__info" href="#" role="button">
+                        <h3><strong>Puntos BBVA al doble para viajar</strong></h3>
+                        <p>Elige tu próximo destino y ahorra una parte o el total de tu viaje</p>
+                        <p class="producto__valido">Válido del 3 al 5 de mayo de 2024</p>
+                    </a>
+                    <div class="productos__slider__button">
+                        <a href="#" role="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1464a5" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                            </svg>
+                            <span>Conoce más</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="productos__slider__item">
+                    <a class="productos__slider__img" href="#" role="button">
+                        <img src="img/main__productos_slider_section/card-salud-seguro.im1697736259201im.avif" alt="Salúd">
+                    </a>
+                    <a class="productos__slider__info" href="#" role="button">
+                        <h3><strong>Nuevo Seguro de Salud</strong></h3>
+                        <p>Cuidamos de ti con:</p>
+                        <ul class="seguro__lista">
+                            <li class="seguro__lista__item">Consultas médicas</li>
+                            <li class="seguro__lista__item">Estudios de laboratorio</li>
+                            <li class="seguro__lista__item">Emergencias médicas</li>
+                            <li class="seguro__lista__item">2 ambulancias anuales</li>
+                        </ul>
+                    </a>
+                    <div class="productos__slider__button">
+                        <a href="#" role="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1464a5" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                            </svg>
+                            <span>Conoce más</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="productos__slider__item">
+                    <a class="productos__slider__img" href="#" role="button">
+                        <img src="img/main__productos_slider_section/eventos-promociones-bbva-card.im1681938487129im.avif" alt="Eventos">
+                    </a>
+                    <a class="productos__slider__info" href="#" role="button">
+                        <h3><strong>BBVA trae para ti y tu familia eventos especiales.</strong></h3>
+                        <p>Disfruta tus eventos favoritos con las promociones exclusivas de tu tarjeta de crédito BBVA.</p>
+                    </a>
+                    <div class="productos__slider__button">
+                        <a href="#" role="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1464a5" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                            </svg>
+                            <span>Conócelos aquí</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="saber__finanzas">
+            <div class="saber__finanzas__container">
+                <div class="saber__finanzas__img__container">
+                    <img src="img/saber__finanzas__section/edufin-marquee-home-complex.im1691609944930im.avif" alt="Finanzas">
+                </div>
+                <div class="saber__finanzas__info__container">
+                    <img src="img/saber__finanzas__section/5_007_education.svg" alt="Aprender">
+                    <div class="saber__finanzas__info__flex">
+                        <h2>¿Quieres saber de finanzas?</h2>
+                        <p>Pregúntale a Educación Financiera BBVA</p>
+                        <a class="saber__finanzas__sabermas">Quiero saber más</a>
+                        <div class="saber__finanzas__vervideo" role="button">
+                            <a role="button" href="#">Ver video</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="notification">
+            <div class="notification__container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#043263" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+                </svg>
+                <div class="notification__info">
+                    <h3>¿Y tú ya estás al día?</h3>
+                    <p>Con la última actualización de tu app BBVA tienes lo que ya conoces y más, solo te tomará unos minutos actualizarla.</p>
+                    <div class="notification__button" role="button">
+                        <a href="#" role="button">
+                            <img src="img/estar__aldia__section/2_024_correct.svg" alt="Conoce">
+                            <span>Conoce cómo hacerlo</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banco__desde__cel">
+            <div class="banco__desde__cel__container">
+                <div class="banco__desde__cel__header">
+                    <h3>Tu banco desde el celular</h3>
+                    <p>Conoce nuestras aplicaciones móviles</p>
+                </div>
+                <ul class="banco__desde__cel__list">
+                    <li>
+                        <a class="banco__desde__cel__background background-1" href="#" role="button">
+                            <h2>BBVA México</h2>
+                            <p>Puedes realizar operaciones bancarias estés donde estés, conectándote con BBVA desde tu celular</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="banco__desde__cel__background background-2" href="#" role="button">
+                            <h2>Nuevas funcionalidades</h2>
+                            <p>Conoce todo lo nuevo que puedes realizar desde tu app BBVA.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="banco__desde__cel__background background-3" href="#" role="button">
+                            <h2>Dimo</h2>
+                            <p>con Dimo y BBVA sólo necesitas su número de celular para depositarle</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="banco__desde__cel__background background-4" href="#" role="button">
+                            <h2>Nuevas tarjetas BBVA</h2>
+                            <p>Nuestras tarjetas evolucionaron para ti. Vive esta era de oportunidades.</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="protege__fraude">
+            <div class="protege__fraude__container">
+                <div class="protege__fraude__img__container">
+                    <img src="img/protege__fraude__section/theft.im1712051249211im.avif" alt="Fraude">
+                </div>
+                <div class="protege__fraude__info__container">
+                    <h3>Protégete del fraude</h3>
+                    <p>Conoce lo que <strong>nunca, nunca, nunca</strong> debes hacer, cómo operan los delincuentes y cómo destinguir a BBVA de ellos.</p>
+                </div>
+                <div class="protege__fraude__button" role="button">
+                    <a href="#" role="button">Conoce más</a>
+                </div>
+            </div>
+        </section>
+        <section class="informacion__adicional">
+            <div class="informacion__adicional__container">
+                <div class="informacion__adicional__flex">
+                    <section class="medio__container">
+                        <a class="medio__img__container" href="#" role="button">
+                            <img src="img/informacion__adicional__section/Outstanding_home_personas-sostenibilidad.im1650898557657im.avif" alt="medio ambiente">
+                        </a>
+                        <a class="medio__info__container" href="#" role="button">
+                            <h3>Medio ambiente</h3>
+                            <p>En BBVA, la sostenibilidad significa crear oportunidades para poder conseguirlo.</p>
+                            <span role="button">Saber más</span>
+                        </a>
+                    </section>
+                    <div class="adicional__container__flex">
+                        <section class="adicional__container">
+                            <div class="adicional__icon__container">
+                                <img src="img/informacion__adicional__section/1_002_dollar.svg" alt="Valioso">
+                            </div>
+                            <div class="adicional__info__container">
+                                <h4>Sabemos lo valioso que es tu tiempo</h4>
+                                <p>Realiza los pagos de tus servicios de manera más rápida, a través de nuestros medios digitales</p>
+                            </div>
+                            <div class="adicional__button__container">
+                                <a href="#">Saber más</a>
+                            </div>
+                        </section>
+                        <section class="adicional__container">
+                            <div class="adicional__icon__container">
+                                <img src="img/informacion__adicional__section/home.svg" alt="Comienza">
+                            </div>
+                            <div class="adicional__info__container">
+                                <h4>Comienza con BBVA</h4>
+                                <p>Conoce y disfruta los beneficios de los productos y servicios que ponemos a tu desposición.</p>
+                            </div>
+                            <div class="adicional__button__container">
+                                <a href="#">Saber más</a>
+                            </div>
+                        </section>
+                        <section class="adicional__container">
+                            <div class="adicional__icon__container">
+                                <img src="img/informacion__adicional__section/1_032_currencyexchange.svg" alt="Imprevisto">
+                            </div>
+                            <div class="adicional__info__container">
+                                <h4>Dinero para cualquier imprevisto</h4>
+                                <p>Apoyo inmediato en el momento indicado.</p>
+                            </div>
+                            <div class="adicional__button__container">
+                                <a href="#">Saber más</a>
+                            </div>
+                        </section>
+                        <section class="adicional__container margin-support">
+                            <div class="adicional__icon__container">
+                                <img src="img/informacion__adicional__section/5_030_auto.svg" alt="Vehiculo">
+                            </div>
+                            <div class="adicional__info__container">
+                                <h4>Un vehículo para tu estilo de vida</h4>
+                                <p>Tu auto o moto siempre seguros</p>
+                            </div>
+                            <div class="adicional__button__container">
+                                <a href="#">Saber más</a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="informacion__adicional__flex informacion__adicional--modifier">
+                    <section class="medio__container medio__container--flex">
+                        <a class="medio__img__container">
+                            <img src="img/informacion__adicional__section/pareja-bailando-cocina-casa-card.im1616802082927im.avif" alt="pareja bailando en cocina">
+                        </a>
+                        <a class="medio__info__container">
+                            <h3>Vive tranquilo en tu hogar</h3>
+                            <p>Elige tu casa, consíguela, protégela. En BBVA te ayudamos a administrarla y protegerla.</p>
+                            <span role="button">Conocer más</span>
+                        </a>
+                    </section>
+                    <div class="medio__container__info medio__container__info--modifier">
+                        <section class="medio__container medio__container--modifier">
+                            <a class="medio__img__container medio--img--modifier">
+                                <img src="img/informacion__adicional__section/home_search.svg" alt="hogar">
+                            </a>
+                            <a class="medio__info__container medio__info__container--modifier">
+                                <h3>¿Quieres saber el valor de tu casa?</h3>
+                                <p>Con BBVA Valora descrubre el valor estimado de tu próximo hogar de acuerdo a la zona donde se ubique.</p>
+                                <span role="button">Saber más</span>
+                            </a>
+                        </section>
+                        <section class="medio__container medio__container--modifier">
+                            <a class="medio__img__container medio--img--modifier">
+                                <img src="img/informacion__adicional__section/future_investment_opportunity_menu.im1712051365445im.avif" alt="Inversión">
+                            </a>
+                            <a class="medio__info__container medio__info__container--modifier">
+                                <h3>Invierte en tu futuro</h3>
+                                <p>Conoce las distintas opciones de ahorro e inversión y construye un futuro.</p>
+                                <span role="button">Saber más</span>
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="message">
+            <div class="message__container">
+                <div class="message__img__container">
+                    <img src="img/message__section/protegete__mensajes__section/device_error.im1712051235713im.avif" alt="">
+                </div>
+                <div class="message__info__container">
+                    <h3>Protégete de mensajes fraudulentos</h3>
+                    <p>Revisa de qué se trata este tipo de ataque y mantente a salvo de los ciberdelincuentes</p>
+                    <a class="message__conoce" href="#" role="button">Conoce nuestros consejos de seguridad</a>
+                </div>
+                <div class="message__button__container" role="button">
+                    <a href="#" role="button">Conoce más</a>
+                </div>
+            </div>
+        </section>
+        <section class="noticias__bbva">
+            <div class="noticias__bbva__header">
+                <h2>Noticias de bbva.com</h2>
+            </div>
+            <div class="noticias__bbva__slider__controls">
+                <input type="radio" id="noticias__bbva__slider__input1" name="noticiasbbvaInput" checked>
+                <label class="noticias__bbva__slider__label1" for="noticias__bbva__slider__input1" role="button"></label>
+                <input type="radio" id="noticias__bbva__slider__input2" name="noticiasbbvaInput">
+                <label class="noticias__bbva__slider__label2" for="noticias__bbva__slider__input2" role="button"></label>
+                <input type="radio" id="noticias__bbva__slider__input3" name="noticiasbbvaInput">
+                <label class="noticias__bbva__slider__label3" for="noticias__bbva__slider__input3" role="button"></label>
+            </div>
+            <ul class="noticias__bbva__slider__container">
+                <li>
+                    <a class="noticias__bbva__slider__img" href="#">
+                        <img src="img/noticias__bbva__section/bbva-mexico-lanza-la-convocatoria-juntos-por-la-educacion-en-guerrero-para-apoyar-a-estudiantes-01.im1711061582356im.avif" alt="Educación">
+                    </a>
+                    <a class="noticias__bbva__slider__info" href="#">
+                        <h3><strong>BBVA México, lanza la convocatoria "Juntos por la educación en Guerrero" para apoyar a estudiantes y docentes</strong></h3>
+                        <p>
+                            Con el propósito de continuar fortaleciendo el sistema educativo en las zonas más afectadas del estado de Guerrero, BBVA México ha diseñado una nueva estrategia: "Juntos por la educación en Guerrero". Se trata de una acción más que pone a disposición de estudiantes y docentes la plataforma "Supérate con Fundación BBVA", que tiene como objetivo disminuir la deserción escolar de estudiantes afectados por el huracán Otis, además de promover su continuidad escolar para el ciclo 2023-2024, otorgando 4,500 becas educativas a nivel secundaria y preparatoria.
+                        </p>
+                        <div class="noticias__bbva__slider__button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1464a5" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                            </svg>
+                            <span>Ir a noticias bbva.com</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="noticias__bbva__slider__img" href="#">
+                        <img src="img/noticias__bbva__section/que-son-los-beneficiarios-y-como-realizar-una-consulta-alta-o-modificacion-01.im1711061582344im.avif" alt="Beneficiarios">
+                    </a>
+                    <a class="noticias__bbva__slider__info" href="#">
+                        <h3><strong>¿Qué son los beneficiarios y cómo realizar una consulta, alta o modificación?</strong></h3>
+                        <p>
+                            Cuando se toma la decisión de contratar productos financieros, como una cuenta de cheques, ahorro, nómina, inversiones o seguros, el cliente debe designar a sus personas beneficiarias y/o beneficiarios. La prevención no está peleada con la distribución; por ello, es de vital importancia mantener actualizada esta información para evitar contratiempos o desintegración familiar.
+                        </p>
+                        <div class="noticias__bbva__slider__button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1464a5" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                            </svg>
+                            <span>Ir a noticias bbva.com</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="noticias__bbva__slider__img" href="#">
+                        <img src="img/noticias__bbva__section/podcast-apoyar-acapulco-permitira-reactivar-su-economia-y-al-sector-educativo-01.im1711061582353im.avif" alt="Podcast">
+                    </a>
+                    <a class="noticias__bbva__slider__info" href="#">
+                        <h3><strong>'Podcast': Apoyar Acapulco permitir+a reactivar su economía y al sector educativo</strong></h3>
+                        <p>
+                            El impacto del huracán Otis cambió el rumbo de Acapulco. La reconstrucción del puerto guerrerense, a través de la suma de esfuerzos, será crucial para su reactivación económica, así como la rehabilitación de escuelas permitirá retomar el curso del sector educativo.
+                        </p>
+                        <div class="noticias__bbva__slider__button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#1464a5" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                            </svg>
+                            <span>Ir a noticias bbva.com</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="noticias__bbva__footer">
+                <a href="#" role="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#1464a5" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
+                    </svg>
+                    <span>Ir a noticias bbva.com</span>
+                </a>
+            </div>
+        </section>
+        <section class="useful__buttons">
+            <a class="useful__buttons__container" href="#" role="button">
+                <div class="button__icon">
+                    <img src="img/useful__buttons__section/locate.svg" alt="Ubicación">
+                </div>
+                <h2>Sucursales y cajeros</h2>
+                <p>Siempre cerca de ti</p>
+            </a>
+            <a class="useful__buttons__container" href="#" role="button">
+                <div class="button__icon">
+                    <img src="img/useful__buttons__section/send_request.svg" alt="Atención">
+                </div>
+                <h2>Atención al cliente</h2>
+                <p>Contacta con nosotros</p>
+            </a>
+            <a class="useful__buttons__container" href="#" role="button">
+                <div class="button__icon">
+                    <img src="img/useful__buttons__section/calculator_card.svg" alt="Aplicaciones">
+                </div>
+                <h2>Aplicaciones móviles</h2>
+                <p>Contigo desde donde sea</p>
+            </a>
+        </section>
+        <section class="notification notification--modifier">
+            <div class="notification__container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#043263" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+                </svg>
+                <div class="notification__info">
+                    <h3>Consulta la nueva versión del aviso de privacidad de BBVA México S.A, Institución de Banca Múltiple, Grupo Financiero BBVA México.</h3>
+                    <div class="notification__button" role="button">
+                        <a href="#" role="button">
+                            <span>Conoce los cambios</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="message">
+            <div class="message__container">
+                <div class="message__img__container">
+                    <img src="img/message__section/igualdad__oportunidades__section/handshake_dark.im1712051370644im.avif" alt="">
+                </div>
+                <div class="message__info__container">
+                    <h3>En BBVA vivimos la igualdad de oportunidades</h3>
+                    <p>Nos ponemos en el lugar de los demás siendo conscientes de nuestras diferencias; por ello, promovemos nuestros valores y contamos con lineamientos que promueven la igualdad, el respeto y la no discriminación para que todas las personas reciban un trato digno y equitativo.</p>
+                </div>
+            </div>
+        </section>
+        <section class="useful__links">
+            <ul class="useful__links__list">
+                <li class="useful__links__item">
+                    <h3>Centro de ayuda</h3>
+                    <ul class="useful__links__section section--1">
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Aviso Cambio de Denominación
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Aclaraciones
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button" >
+                                Ayuda urgente
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Consideraciones técnicas
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Soluciones de pago para particulares
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Consejos de seguridad
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Quejas y reclamos
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Buró de Entidades
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Financieras
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Derechos ARCO/Revocación
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Disposiciones legales seguros
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Guía para trámites de fallecidos
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Reporte Vulnerabilidades
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="useful__links__item">
+                    <h3>Información Corporativa</h3>
+                    <ul class="useful__links__section section--2">
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Acerca de Grupo BBVA
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Educación Financiera
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button" >
+                                Tipo de cambio e información financiera
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Notas para inversionistas
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Empleo
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Noticias de bbva.com
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Estudios económicos
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Diccionario financiero
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="useful__links__item">
+                    <h3>Otros sitios BBVA</h3>
+                    <ul class="useful__links__section section--3">
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Fundación BBVA
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                BBVA Open Space México
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button" >
+                                Relación con inversionistas
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Casa de Bolsa
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Inmuebles BBVA
+                            </a>
+                        </li>
+                        <li>
+                            <a class="useful__links__link" href="#" role="button">
+                                Fomento Cultural BBVA
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="useful__links__item--banco">
+                    <div class="mejorbanco__award">
+                        <h3>Mejor Banco Digital en México 2019</h3>
+                        <p>BBVA México recibió el reconocimiento de "Mejor Banco Digital en México 2019" en la pasada edición de los premios <strong>World Finance Banking Awards</strong></p>
+                        <div class="mejorbanco__button">
+                            <a href="#">
+                                Trabajando por un sitio accesible para todos.
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="new__customer">
+            <div class="new__customer__section">
+                <a href="#" role="button">
+                    <img src="img/new__customer__section/3_048_oneclick.svg" alt="nuevo cliente">
+                    <span>Hazte cliente</span>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer__section">
+        <div class="footer__container">
+            <a class="footer__logo" href="#">
+                <img src="img/footer__section/logo_bbva_blanco.svg" alt="BBVA logo">
+            </a>
+            <nav class="footer__nav">
+                <ul class="footer__nav__list">
+                    <li>
+                        <a href="#">Aviso legal</a>
+                    </li>
+                    <li>
+                        <a href="#">Mapa del sitio</a>
+                    </li>
+                    <li>
+                        <a href="#">Avisos de privacidad</a>
+                    </li>
+                    <li>
+                        <a href="#">Consulta los costos y las comisiones de nuestros productos</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="footer__icon__nav">
+                <ul class="footer__icon__nav__list">
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5bbeff" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5bbeff" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5bbeff" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5bbeff" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5bbeff" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__copyright">
+                <p>
+                    © 2024 BBVA México, S.A., Institución de Banca Múltiple, Grupo Financiero BBVA México. Avenida Paseo de la Reforma 510, colonia Juárez, código postal 06600, alcaldía Cuauhtémoc, Ciudad de México.
+                </p>
+            </div>
+            <div class="footer__final">
+                <p>
+                    Creando Oportunidades
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
